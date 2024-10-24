@@ -1,7 +1,3 @@
+Progetto finale per il corso Hackademy di Aulab
 
-Cambiare la card (mobile cambiare le altezze fisse) () [Miranda]
-
-
-
-Pagina dettaglio (cambiarla, togliere bannerino, sistemare mobile. cambiare altezze fisse e metterle dinamiche) [Miranda]
-Inserire crea articolo nel dropdown revisore
+Questo progetto rappresenta il lavoro conclusivo svolto durante il corso Hackademy di Aulab. Seguendo un approccio basato sulle User Stories, abbiamo sviluppato una web application pensata per rispondere alle esigenze degli utenti in modo efficace e funzionale. Le User Stories ci hanno permesso di definire chiaramente i requisiti del progetto e di affrontare ogni fase dello sviluppo con un focus sull'utente finale. Durante il corso, abbiamo messo in pratica concetti di backend e frontend development, lavorando con tecnologie moderne e strumenti di versioning come Git. L'obiettivo è stato quello di creare una soluzione scalabile, ben strutturata e facilmente mantenibile, seguendo le migliori pratiche di programmazione e sviluppo software.
