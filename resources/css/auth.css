@@ -1,0 +1,247 @@
+
+:root {
+    --colorMain: black;
+    --colorSec:#FFB128;
+    --fontMain: 'Poppins', sans-serif;
+    --fontSec: 'Roboto', sans-serif;
+}
+
+.auth-container {
+    position: relative;
+    min-height: 110vh;
+}
+.auth-column1 {
+    height: 110vh;
+
+    background-color: var(--colorMain);
+}
+
+.auth-column2 {
+    height: 110vh;
+}
+
+.auth-title {
+    font-family: var(--fontMain);
+    font-size: 18px;
+}
+
+.auth-form-control{
+   
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    border: 0;
+    height: 8vh;
+}
+
+
+
+.auth-form-control::placeholder {
+    color: #4c4c4c;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: #f5f5f5;
+
+}
+
+.auth-border-focus {
+   
+    border-radius: 8px; 
+    transition: all 0.2s ease-in-out;
+}
+
+
+.auth-border-focus:focus-within {
+    border-color: #52606b; 
+    box-shadow: 0 0 5px rgba(62, 71, 90, 0.6); 
+}
+
+
+
+.auth-form-span{
+    background-color: #f5f5f5;
+    border: none;
+    
+    font-size: 18px;
+  
+}
+
+
+.auth-icon{
+    font-size: 20px;
+    color: #b2b2b2;
+
+}
+
+.auth-button{
+    width: 100%;
+    background-color: var(--colorMain);
+    padding: 14px 50px;
+    border: none;
+    border-radius: 2px;
+    font-family: var(--fontMain);
+    font-size: 16px;
+    color: white;
+    transition: all 0.3s;
+}
+
+.auth-button:hover{
+    background-color: var(--colorSec);
+    color: white;
+}
+
+.auth-link {
+    color: #4c4c4c;
+    transition: all 0.3s;
+}
+
+.auth-link-register {
+    color: #4c4c4c;
+    transition: all 0.3s;
+}
+
+.auth-link:hover{
+    color: var(--colorSec);
+    text-decoration: underline;
+}
+
+.auth-link-register:hover{
+    color: var(--colorSec);
+    text-decoration: underline;
+}
+
+.w-70{
+    width: 48%;
+}
+
+
+.auth-image1{
+    background-image: url(/public/images/joystick.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 15vw;
+    background-color: #4c4c4c;
+    height: 60vh;
+    position: relative;
+    top: 60px;
+   
+}
+
+.auth-image2{
+    background-image: url(/public/images/foto.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 10vw;
+    background-color: #4c4c4c;
+    height: 18vh;
+    position: relative;
+    top: 80px;
+    left: 12px;
+   
+}
+
+.auth-image3{
+    background-image: url(/public/images/cream.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 13vw;
+    background-color: #4c4c4c;
+    height: 30vh;
+    position: relative;
+    top: -30px;
+    right: 20px;
+   
+}
+
+.auth-title-white {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.auth-title-yellow {
+    color:  var(--colorSec);
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.auth-anchor {
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 12px;
+    width: 10vw;
+    font-family: var(--fontMain);
+    font-size: 14px;
+   
+}
+
+.auth-link-login.active {
+    border-bottom: 1px solid var(--colorSec);
+    padding-bottom: 14px;
+}
+
+.auth-icon-close-container{
+    position: absolute;
+    top : 20px;
+    left: 20px;
+    background-color: transparent;
+    padding: 1px 5px;
+    border-radius: 100px;
+    border: 2px solid var(--colorSec) ;
+    
+}
+
+
+
+.auth-icon-close{
+    color:var(--colorSec);
+    
+}
+
+
+
+.auth-col-index {
+    width: 90%;
+}
+
+.ColorTextarea{
+    color: #4c4c4c !important;
+}
+/* Bottone Prodotto crea article */
+.customButtonPhotos{
+    position: absolute;
+    top: -15px;
+    left: 135px;
+    z-index: 999;
+    border-radius: 100%;
+    background-color: white;
+    border-color: white;
+    font-size: 12px;
+    color: #000000;
+}
+.ColorTextForm{
+    color: var(--colorSec);
+}
+
+.SelectCategoryForm{
+    background-color: #f5f5f5;
+}
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    .auth-anchor {
+        width: 35vw;
+    }
+    .w-70{
+        width: 80%;
+    }
+    .ColumnDnone{
+        display: none;
+    }
+    .customButtonPhotos{
+        position: absolute;
+        top: -15px;
+        left: 150px;
+        background-color: #f5f5f5;
+    }
+}

@@ -1,0 +1,383 @@
+:root {
+    --colorMain: black;
+    --colorSec:#FFB128;
+    --fontMain: 'Poppins', sans-serif;
+    --fontSec: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--fontMain);
+    font-weight: 600;
+}
+p{
+    font-family: var(--fontSec);
+}
+/* Homepage */
+/* header-homepage */
+
+
+.hero-section {
+    height: 110vh;
+    background-image: url(/public/images/hero-bg-new2.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+.column1 {
+    
+    height: 100vh;
+}
+
+.column2{
+   
+    height: 100vh;
+}
+
+.column3{
+    height: 80vh;
+   
+    background-image: url(/public/images/hero1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.column6 {
+  
+    background-image: url(/public/images/hero2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.column5{
+    height: 10vh;
+
+}
+
+.headerTitle2{
+    font-size: 117px;
+}
+
+.titolo-slide{
+    position: absolute;
+    left: 20%;
+    top: 60%;
+}
+
+.colore-titolo{
+    color: var(--colorSec);
+}
+
+.card-section {
+    height: 20vh;
+}
+
+/* STRINGA CATEGORIE HOME */
+.immagine-icona{
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.altezza-icone{
+    height: 7vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+ .carousel-control-next-icon{
+    
+   color: var(--colorSec);
+}
+
+.carousel-control-prev-icon{
+  
+   color: var(--colorSec);
+} 
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* CATEGORY BANNER */
+.category-bg{
+    height: 20vh;
+    /* background-image: url(/public/images/banner-category.jpg); */
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-colorcustom{
+    background-color: #FFB128;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn-colorcustom:hover{
+    
+    background-color: #D89323;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.custom-card {
+    justify-content: center;
+    border: solid 2px #ffffff;
+    padding-bottom: 20px;
+    margin: 15px;
+    width: 20%;
+    height: 160px;
+    border-radius: 4px;
+    margin-top: 40px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    background-color: transparent;
+}
+
+.custom-card:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transform: translateY(-10px); 
+}
+
+.font-card, .immagine-icona{
+    transition: color 0.3s ease, filter 0.3s ease;
+}
+
+.custom-card:hover .font-card {
+    color: #000000; 
+}
+
+.custom-card:hover .immagine-icona {
+    filter: brightness(0);
+}
+
+.font-card{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.altezza-icone img {
+    width: 90px;
+    height: auto;
+}
+
+
+
+.bottom-border{
+    height: 1px;
+    border-bottom: solid 2px #000000;
+    margin-bottom: 50px;
+}
+
+.altezza-revisor{
+    min-height: 200px;
+    padding-bottom: 60px;
+}
+.font-custom-heigt{
+    margin-bottom: 50px;
+}
+
+.bottone-revisore{
+    width: 300px;
+}
+
+.h6-revisor{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+}
+.bg-black-custom{
+    border-radius: 0px;
+}
+
+.breadcrumb-item{
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+.article-img{
+    height: 400px;
+    background-image: url(/public/images/hero1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn{
+    border-radius: 0px !important;
+}
+
+.auth-border-focus{
+    border-radius: 0px !important;
+}
+
+/* STRINGA PRODOTTI */
+.decorative{
+    background-image: url(/public/images/outline-name.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+}
+
+.accent-color{
+    color: var(--colorSec);
+}
+
+.bg-accent{
+    background-color: var(--colorSec);
+    border-radius: 0px;
+}
+
+.text-title{
+    font-size: 70px;
+    line-height: 1;
+}
+
+.bordo-custom{
+    border-top: 8px solid var(--colorSec);
+    margin-top: 80px;
+    padding-top: 40px;
+    width: 80%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.breadcrumb-item::before{
+    padding-right: 0px !important;
+}
+
+/* FOOTER */
+.logo-footer{
+    width: 75%;
+}
+
+@media (min-width: 940px) {
+    .nav-responsive{
+        display: none;
+    }
+}
+
+.img-preview{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}
+.breadcrumb-item::before{
+    display: none;
+} 
+
+
+/* Bottone Prodotto crea article */
+/* .customButtonPhoto{
+    position: absolute;
+    top: -15px;
+    left: 150px;
+    z-index: 999;
+    border-radius: 100%;
+    background-color: #e2e2e2;
+    border-color: #e2e2e2;
+    font-size: 12px;
+    color: #000000;
+} */
+
+/* RESPONSIVE */
+@media (max-width: 940px) {
+    .headerTitle2{
+        font-size:40px;
+    }
+    .custom-card{
+        width: 40%;
+    }
+    .titolo-slide{
+        position: absolute;
+        left: 10%;
+        
+    }
+    .breadcrumb-item{
+        font-size: 12px;
+    }
+    .uppercase{
+        font-size: 20px;
+    }
+
+.column1{
+    height: 60vh;
+}
+
+.column2 {
+    height: 60vh;
+}
+
+.column3 {
+    width: 80%;
+    height: 40vh;
+}
+
+.column6 {
+    height: 50vh;
+}
+
+.hero-section {
+    height: 65vh;
+}
+
+.decorative{
+    background-size: contain;
+    height: 10vh;
+}
+
+.text-title {
+    font-size: 40px;
+}
+
+.card-container {
+    width: 90% !important;
+}
+
+.bordo-custom {
+    width: 100%;
+}
+
+.custom-banner {
+    width: 100%;
+}
+
+.text-right {
+    text-align: left;
+    padding-top: 20px;
+    width: 50%;
+}
+
+.font-custom-heigt {
+    margin-bottom: 0px;
+}
+
+.bottone-revisore {
+
+    width: 340px;
+}
+
+.altezza-icone img {
+    width: 70px;
+    height: auto;
+}
+
+
+}
+
+
+.home-section-text{
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
